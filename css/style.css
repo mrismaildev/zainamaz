@@ -11,7 +11,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(175, 187, 192);
+  background-color: rgba(74, 186, 233, 0.651);
 
 }
 .main{
