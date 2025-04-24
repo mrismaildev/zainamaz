@@ -1,0 +1,2459 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  height: 100%;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(175, 187, 192);
+
+}
+.main{
+  width: 400px;
+  height: 650px;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  box-shadow: 0 4px 2px 0 rgba(255, 255, 255, 0.3) ;
+}
+.child{
+width: 360px;
+height: 600px;
+background-color: rgb(0, 0, 0);
+border: 8px solid white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.circle1{
+width: 50px;
+height: 50px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top: 3%;
+left: 4%;
+border-radius: 50%;
+}
+.circle3{
+width: 50px;
+height: 50px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top: 3%;
+right: 4%;
+border-radius: 50%;
+}
+.circle2{
+width: 25px;
+height: 25px;
+background-color: rgb(0, 0, 0);
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 50%;
+transform: translate(-50%,-50%);
+}
+.circle4{
+width: 25px;
+height: 25px;
+background-color: rgb(5, 5, 5);
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 50%;
+transform: translate(-50%,-50%);
+}
+
+.child1{
+width: 292px;
+height: 508px;
+border: 5px solid rgb(255, 255, 255);
+position: absolute;
+top: 57%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 50% 50% 0 0;
+}
+.kaaba1{
+  width: 139px;
+  height: 139px;
+  background-color: rgb(36, 32, 16);
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  left: 26%;
+ 
+}
+.kaabas2{
+  width: 1px;
+  height: 17px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 63%;
+  top: 5%;
+}.kaabas3{
+  width: 1px;
+  height: 19px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 74%;
+  top: 5%;
+}
+.kaabas4{
+  width: 19px;
+  height: 1px;
+  /* background-color: green; */
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+  position: absolute;
+  left: 61%;
+  top: 3%;
+}
+.kaabas5{
+     width: 19px;
+    height: 8px;
+    /* background-color: green; */
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 61%;
+    top: -2%;
+}
+.kaabas6{
+         width: 13px;
+    height: 6px;
+     /* background-color: gold;  */
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 63%;
+    top: -5%;
+}
+
+.kaabas7{
+            width: 7px;
+    height: 4px;
+    /* background-color: green; */
+    border: 1px solid rgb(255, 255, 255);
+    /* background-color: gold; */
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 65%;
+    top: -8%;
+}
+
+.kaabas8{
+         width: 1px;
+    height: 6px;
+    background-color: rgb(255, 255, 254);
+    /* border: 1px solid green; */
+    position: absolute;
+    left: 68%;
+    top: -12%;
+}
+
+
+
+ 
+
+.border1{
+  width: 2px;
+  height: 90px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+.border2{
+  width: 2px;
+  height: 85px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%,-50%);
+  
+}.border3{
+  width: 2px;
+  height: 85px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 82%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.border4{
+      width: 45px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25px;
+    left: 24px;
+    transform: rotate(-6deg);
+  
+}
+.border5{
+     width: 46px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25px;
+    left: 69px;
+    transform: rotate(6deg);
+
+  
+}.border6{
+     width: 46px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 113px;
+    left: 69px;
+    transform: rotate(-4deg);
+  
+}.border7{
+    width: 45px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 113px;
+    left: 24px;
+    transform: rotate(4deg);
+  
+}
+
+
+
+.border8{
+  width: 40px;
+  height: 6px;
+  background-color: gold;
+  border: 1px solid gold;
+  position: absolute;
+  top: 45px;
+  left: 26px;
+  transform:rotate(-3deg);
+  
+}
+.border9{
+  width: 40px;
+  height: 6px;
+  background-color: gold;
+  border: 1px solid gold;
+  position: absolute;
+  top: 45px; 
+  left: 71px; 
+  transform:rotate(3deg);
+  
+}
+
+.border10{
+  width: 44px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 56px;
+  left: 70px;
+  transform:rotate(3deg);
+  
+}
+.under1{
+  width: 8px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+  left: 1px;
+
+}
+.under2{
+  width: 8px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+  left: 18px;
+  
+}
+.under3{
+  width: 8px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+  left: 35px;
+  
+}
+.under4{
+  width: 6px;
+  height: 6px;
+  background-color: gold;
+  position: absolute;
+  left: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  
+}.under5{
+  width: 6px;
+  height: 6px;
+  background-color: gold;
+  position: absolute;
+  left: 27px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  
+}
+
+
+
+
+.inner1{
+  width: 8px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+}
+.inner2{
+  width: 8px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+  left: 16px;
+}
+.inner3{
+  width: 10px;
+  height: 100%;
+  background-color: gold;
+  position: absolute;
+  left: 33px;
+}
+.circles1{
+    width: 6px;
+  height: 6px;
+  background-color: gold;
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.circles2{
+    width: 6px;
+  height: 6px;
+  background-color: gold;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.border11{
+  width: 44px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 56px;
+  left: 25px;
+  transform:rotate(-3deg);
+  
+}
+
+.border12{
+      width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 91px;
+    left: 26px;
+    transform: rotate(1deg);
+}
+
+.ubor1{
+     width: 13px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.ubor2{
+     width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 13px;
+    top: -1px;
+}
+.ubor3{
+     width: 13px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 28px;
+    top: -1px;
+}
+.ubor4{
+     width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 22px;
+    top: -1px;
+}
+
+.ubor5{
+     width: 15px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 6px;
+    top: -1px;
+}
+
+
+
+.ubor6{
+        width: 6px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.ubor7{
+        width: 4px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 37px;
+    top: -1px;
+}
+
+.ubor8{
+        width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}.ubor9{
+        width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 14px;
+    top: -1px;
+}
+
+.ubor10{
+        width: 12px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 29px;
+    top: -1px;
+}
+.ubor12{
+        width: 12px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 29px;
+    top: -1px;
+}
+.ubor13{
+        width: 12px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 16px;
+    top: -1px;
+}
+.ubor14{
+        width: 16px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.ubor15{
+
+    width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 7px;
+    top: -1px;
+}
+
+.ubor16{
+
+    width: 14px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 22px;
+    top: -1px;
+}
+.ubor17{
+
+    width: 7px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+
+.ubor18{
+
+    width: 4px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 37px;
+    top: -1px;
+}
+.ubor19{
+
+    width: 16px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+}
+.ubor20{
+
+    width: 12px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 16px;
+    top: -1px;
+}
+.ubor21{
+
+    width: 12px;
+    height: 139%;
+    background-color: brown;
+    position: absolute;
+    left: 29px;
+    top: -1px;
+}
+
+
+
+
+
+.border13{
+      width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 98px;
+    left: 26px;
+    transform: rotate(1deg);
+}
+.border14{
+      width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 105px;
+    left: 26px;
+    transform: rotate(1deg);
+}
+
+
+
+.border15{
+   width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 105px;
+    left: 71px;
+    transform: rotate(-1deg);
+}
+
+.border16{
+    width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 98px;
+    left: 71px;
+    transform: rotate(-1deg);
+}
+
+.border17{
+    width: 40px;
+    height: 4px;
+    background-color: gold;
+    border: 1px solid gold;
+    position: absolute;
+    top: 91px;
+    left: 71px;
+    transform: rotate(-1deg);
+}
+
+
+.border18{
+    width: 40px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 91px;
+    left: 71px;
+    transform: rotate(-1deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.khamba1{
+  width: 40px;
+  height: 200px;
+  border-right: 4px solid rgb(20, 20, 18);
+  border-top: 4px solid rgb(0, 0, 0);
+  border-left: 4px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(17, 17, 15);
+  background-color: rgb(255, 246, 246);
+  position: absolute;
+  bottom: 39px;
+  left: 15px;
+}
+
+.aro1{
+  width: 50px;height: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  position: absolute;
+  bottom: -10px;
+  border-radius:5px 5PX 5px 5px ;
+  left: -6px;
+}
+
+.aro2{
+  width: 40px;
+  height: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  bottom: -15px;
+}
+.aro3{
+  width: 50px;
+  height: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  bottom: -21px;
+  left: -5px;
+    border-radius: 5px 5px 0 0 ;
+}
+.aro4{
+  width: 70px;
+  height: 18px;
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  bottom: -40px;
+  left: -15px;
+    border-radius: 5px 5px 0 0 ;
+}
+.tvuj1{
+  width: 6px;
+  height: 6px;
+  border: 2px solid rgb(252, 249, 247) ;
+  top: 50%;
+  position: absolute;
+  left: 20%;
+  transform: translate(-50%,-50%);
+
+}
+.tvuj2{
+  width: 6px;
+  height: 6px;
+  border: 2px solid rgb(255, 255, 251) ;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.tvuj3{
+  width: 6px;
+  height: 6px;
+  border: 2px solid rgb(255, 252, 252) ;
+  top: 50%;
+  position: absolute;
+  left: 80%;
+  transform: translate(-50%,-50%);
+
+}
+.khamba2{
+    width: 40px;
+  height: 200px;
+  border-right: 4px solid rgb(0, 0, 0);
+  border-top: 4px solid rgb(0, 0, 0);
+  border-left: 4px solid rgb(7, 6, 5);
+  border-bottom: 2px solid rgb(5, 4, 4);
+  background-color: rgb(255, 246, 246);
+  position: absolute;
+  bottom: 39px;
+  right: 17px;
+}
+.ros5{
+  width: 98%;
+  height: 13px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
+.squre{
+    width: 163px;
+    height: 214px;
+    top: 138px;
+    left: 92px;
+    position: absolute;
+    border-right: 6px solid rgb(255, 255, 255);
+    border-left: 6px solid rgb(255, 255, 255);
+    border-radius: 50% 50% 0 0;
+
+}
+
+.desk1{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 5px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk2{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 33px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk3{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 60px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk4{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 87px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk5{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 114px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk6{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 141px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk7{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 168px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk8{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 194px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk9{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 221px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk10{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 248px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk11{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 275px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk12{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 303px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk13{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 331px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk14{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 19px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk15{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 46px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk16{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 73px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk17{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 100px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk18{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 127px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk19{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 154px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk20{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 181px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk21{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 208px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk22{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 235px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk23{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 261px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk24{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 288px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk25{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 316px;
+  top: 18px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk26{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 4px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk27{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 31px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk28{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 59px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk29{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 86px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk30{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 113px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk31{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 140px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk32{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 167px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk33{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 194px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk34{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 221px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk35{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 248px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk36{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 275px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk37{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 302px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk38{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left: 330px;
+  top: 35px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk39{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:18px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk40{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:45px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.desk41{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:72px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk42{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:100px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk43{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:127px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk44{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:154px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk45{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:181px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk46{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:208px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk47{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:234px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk48{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:262px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk49{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:289px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk50{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:316px;
+  top: 53px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk51{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk52{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:32px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk53{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:59px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk54{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:86px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk55{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:114px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk56{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:142px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk57{
+  width: 20px;
+  height: 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:170px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk58{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:195px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+ .desk59{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:222px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk60{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:249px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+  .desk61{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:276px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk62{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:303px;
+  top: 73px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk63{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:333px;
+  top: 71px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk64{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:18px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk65{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:46px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk66{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:73px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk67{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:100px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk68{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:236px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk69{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:263px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk70{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:290px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk71{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:290px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk72{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:318px;
+  top: 89px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk73{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk74{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:32px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk75{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:59px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk76{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:86px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk77{
+  width: 20px;
+  height: 15px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:251px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk78{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:277px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk79{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:304px;
+  top: 107px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk80{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:334px;
+  top: 106px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+ .desk81{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:18px;
+  top: 125px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk82{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:45px;
+  top: 125px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk83{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:71px;
+  top: 125px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk84{
+  width: 20px;
+  height: 12px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:265px;
+  top: 125px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk85{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:291px;
+  top: 125px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk86{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:319px;
+  top: 123px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk87{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 144px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk88{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:31px;
+  top: 143px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk89{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:57px;
+  top: 143px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk90{
+  width: 20px;
+  height: 15px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:278px;
+  top: 143px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+ .desk91{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:306px;
+  top: 143px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk93{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:334px;
+  top: 143px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk94{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:18px;
+  top: 161px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk95{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:44px;
+  top: 161px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk96{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:292px;
+  top: 161px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk97{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:318px;
+  top: 161px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk98{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 179px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk99{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:32px;
+  top: 179px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk100{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:304px;
+  top: 179px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk101{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:334px;
+  top: 179px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk102{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:19px;
+  top: 196px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+
+.desk103{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:19px;
+  top: 196px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk104{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:319px;
+  top: 196px; 
+  border: 1px solid rgb(255, 255, 255);
+}  .desk105{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 212px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk106{
+  width: 14px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:32px;
+  top: 212px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk107{
+  width: 18px;
+  height: 8px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:306px;
+  top: 212px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk108{
+  width: 18px;
+  height: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:339px;
+  top: 212px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk109{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:17px;
+  top: 231px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk110{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:325px;
+  top: 219px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk111{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 251px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk112{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:326px;
+  top: 251px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk113{
+  width: 17px;
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:340px;
+  top: 233px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk114{
+  width: 14px;
+  height: 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:320px;
+  top: 238px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+
+.desk115{
+  width: 14px;
+  height: 14px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:1px;
+  top: 233px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk116{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:4px;
+  top: 273px; 
+  border: 1px solid rgb(255, 255, 255);
+}.desk117{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 273px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+ .desk118{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 299px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk119{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 299px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk120{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 325px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk121{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 325px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk122{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 351px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk123{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 351px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk124{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 377px; 
+  border: 1px solid rgb(255, 255, 255);
+}  
+.desk125{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 377px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk126{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 402px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk126{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 402px; 
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk126{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 402px; 
+  border: 1px solid rgb(255, 255, 255);
+} .desk127{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 428px; 
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk128{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 428px;
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk129{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 402px;
+  border: 1px solid rgb(255, 255, 255);
+} .desk130{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 453px;
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk131{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 453px;
+  border: 1px solid rgb(255, 255, 255);
+}
+ .desk132{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 479px;
+  border: 1px solid rgb(255, 255, 255);
+}  .desk133{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 479px;
+  border: 1px solid rgb(255, 255, 255);
+} .desk134{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:333px;
+  top: 504px;
+  border: 1px solid rgb(255, 255, 255);
+} 
+.desk135{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 504px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk136{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 529px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk137{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 530px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk138{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 554px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.desk139{
+  width: 23px;
+  height: 23px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:330px;
+  top: 554px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk140{
+  width: 18px;
+  height: 18px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:5px;
+  top: 580px;
+  border: 1px solid rgb(255, 255, 255);
+}.desk141{
+  width: 18px;
+  height: 18px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50% 10% 50% 10%;
+  position: absolute;
+  transform: rotate(34deg);
+  left:335px;
+  top: 580px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.under_design1{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -259px;
+  left: 79px;
+
+}
+.under_design2{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -260px;
+  left: 120px;
+
+}.under_design3{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -244px;
+  left: 158px;
+
+}
+
+.under_design4{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -235px;
+  left: 47px;
+
+}
+.under_design5{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -203px;
+  left: 21px;
+
+}.under_design6{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -210px;
+  left: 189px;
+
+}.under_design7{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -170px;
+  left: 206px;
+
+}.under_design8{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -165px;
+  left: 4px;
+ 
+}.under_design9{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -125px;
+  left: -2px;
+
+}.under_design10{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -129px;
+  left: 213px;
+
+}.under_design11{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -87px;
+  left: 213px;
+
+}
+.under_design12{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -45px;
+  left: 214px;
+
+}.under_design13{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -85px;
+  left: -3px;
+
+}.under_design14{
+  width: 40px;height: 40px;
+  background-color: rgb(124, 119, 119);
+  position: absolute;
+  border-radius: 50%;
+  top: -45px;
+  left: -3px;
+
+}
+
+
+
+ .inner_star1{
+  width: 40px;height: 40px;
+  background-color: rgb(247, 246, 246);
+  position: absolute;
+  top: 0;left: 0;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+ }
+.inner_star2{
+  width: 40px;height: 40px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0;left: 0;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+ transform: rotate(38deg);
+ }
+ .white_star1{
+width: 20px;
+height: 20px;
+background-color: rgb(0, 0, 0);
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+ }
+
+
+
